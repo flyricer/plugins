@@ -1,9 +1,15 @@
 // 导入单个组件
 import Sum from './sum/index'
+import Uploader from './upload/index'
+import Form from './form/index'
+import FormItem from './form-item/index'
 
 // 以数组的结构保存组件，便于遍历
 const components = [
-    Sum
+    Sum,
+    Form,
+    FormItem,
+    Uploader
 ]
 
 // 定义 install 方法

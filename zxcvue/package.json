@@ -13,7 +13,9 @@
     "lib": "vue-cli-service build --target lib --name zxc-vue --dest lib packages/index.js"
   },
   "dependencies": {
+    "async-validator": "^3.0.4",
     "core-js": "^2.6.5",
+    "element-ui": "^2.11.1",
     "vue": "^2.6.10"
   },
   "devDependencies": {
