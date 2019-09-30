@@ -9,7 +9,7 @@
 </template>
 <script>
   export default({
-    name:'Sum',
+    name:'XsSum',
     props:['num1','num2'],
     data() {
       return{

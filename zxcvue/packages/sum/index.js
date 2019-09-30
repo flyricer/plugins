@@ -1,7 +1,7 @@
-import Sum from './src/main'
+import XsSum from './src/main'
 
-Sum.install = function (Vue) {
-    Vue.component(Sum.name, Sum);
+XsSum.install = function (Vue) {
+    Vue.component(XsSum.name, XsSum);
 };
 
-export default Sum;
+export default XsSum;

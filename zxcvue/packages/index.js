@@ -1,15 +1,21 @@
 // 导入单个组件
-import Sum from './sum/index'
-import Uploader from './upload/index'
-import Form from './form/index'
-import FormItem from './form-item/index'
+import XsSum from './sum/index'
+import XsUploader from './upload/index'
+import XsForm from './form/index'
+import XsFormItem from './form-item/index'
+import XsInput from './input/index'
+import XsButton from './button/index'
+import XsDialog from './dialog/index'
 
 // 以数组的结构保存组件，便于遍历
 const components = [
-    Sum,
-    Form,
-    FormItem,
-    Uploader
+    XsSum,
+    XsForm,
+    XsFormItem,
+    XsUploader,
+    XsInput,
+    XsButton,
+    XsDialog
 ]
 
 // 定义 install 方法

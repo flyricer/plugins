@@ -1,7 +1,7 @@
-import Uploader from './src/uploader'
+import XsUploader from './src/uploader'
 
-Uploader.install = function (Vue) {
-    Vue.component(Uploader.name, Uploader)
+XsUploader.install = function (Vue) {
+    Vue.component(XsUploader.name, XsUploader)
 }
 
-export default Uploader
+export default XsUploader
